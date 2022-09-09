@@ -153,7 +153,7 @@ body {
 #left-about {
     width: 50%;
     height: 600px;
-    background-color: #8e2828;
+    background-color: #fcfcfc;
     float: left;
 }
 
@@ -165,14 +165,14 @@ body {
 }
 
 #right-about h2 {
-    padding: 150px 0 20px 0;
+    padding: 150px 0 20px 20px;
     word-spacing: 5px;
     letter-spacing: 2px;
     float: left;
     font-size: 200%;
 }
 #right-about p {
-    padding: 0 0 20px 0;
+    padding: 0 30px 20px 20px;
     word-spacing: 5px;
     letter-spacing: 2px;
     float: left;
@@ -184,14 +184,13 @@ body {
     color: black;
 }
 
-
-
-
-
-
-
-
-
+#img {
+    background: url(../css/image/pexels-yentl-jacobs-157811.jpg) no-repeat center center;
+    width: 100%;
+    height: 600px;
+    background-size: 100%;
+    margin-left: 30px;
+}
 
 
 
@@ -200,7 +199,17 @@ body {
 #footer {
     width: 100%;
     height: 100px;
-    background-color: #C2DFE3;
+    background-color: #0d0d0d;
+}
+
+#footer-text {
+    color: #fff;
+    text-align: center;
+    font-size: 120%;
+}
+
+#footer-text h6 {
+   padding: 40px;
 }
 
 /*media queries*/
