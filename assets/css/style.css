@@ -5,3 +5,33 @@
     padding: 0;
 }
 
+/*logo and nav*/
+
+#header {
+    width: 100%;
+    height: 70px;
+    background-color: #C2DFE3;
+}
+/*hero image and text*/
+
+#hero {
+    width: 100%;
+    height: 800px;
+    background-color: #5C6B73;
+}
+/*about us*/
+
+#about-us {
+    width: 100%;
+    height: 600px;
+    background-color: #9DB4C0;
+}
+/*footer*/
+
+#footer {
+    width: 100%;
+    height: 200px;
+    background-color: #C2DFE3;
+}
+
+/*media queries*/
