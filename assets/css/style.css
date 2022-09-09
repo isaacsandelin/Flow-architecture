@@ -8,7 +8,7 @@
 
 body {
     cursor: crosshair;
-    font-family: inter, sans serif;
+    font-family: "inter", sans-serif;
 }
 
 /*logo and nav*/
@@ -23,7 +23,7 @@ body {
     float: left;
     text-decoration: none;
     color: #fff;
-    font-family: Tiro Bangla, sans serif;
+    font-family: "Tiro Bangla", sans-serif;
     margin: 15px 0 15px 30px;
 }
 
@@ -40,7 +40,7 @@ body {
 #nav a {
     color: #f2fdff;
     text-decoration: none;
-    font-family: inter, sans serif;
+    font-family: "inter", sans-serif;
     font-size: 110%;
     font-weight: 500;
 }
@@ -81,11 +81,11 @@ body {
 
 #hero-text {
     color: #fff;
-    font-family: inter, sans-serif;
+    font-family: "inter", sans-serif;
     
 }
 
-#hero-text h1 {
+#hero-text h2 {
     font-size: 400%;
     letter-spacing: 5px;
     text-transform: uppercase;
@@ -125,7 +125,8 @@ body {
 
 .fa-solid {
     color: white;
-    font-size: 140%;
+    font-size: 100%;
+    padding-right: 5px;
 }
 
 #read-more a:hover {
@@ -148,6 +149,36 @@ body {
     height: 600px;
     background-color: #fff;
 }
+
+#left-about {
+    width: 50%;
+    height: 600px;
+    background-color: #adf3ff;
+    float: left;
+}
+
+#right-about {
+    width: 50%;
+    height: 600px;
+    background-color: #f2fdff;
+    float: right;
+}
+
+#right-about h2 {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /*footer*/
 
 #footer {
