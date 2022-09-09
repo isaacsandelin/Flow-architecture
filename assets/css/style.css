@@ -153,19 +153,35 @@ body {
 #left-about {
     width: 50%;
     height: 600px;
-    background-color: #adf3ff;
+    background-color: #8e2828;
     float: left;
 }
 
 #right-about {
     width: 50%;
     height: 600px;
-    background-color: #f2fdff;
+    background-color: #fcfcfc;
     float: right;
 }
 
 #right-about h2 {
-    
+    padding: 150px 0 20px 0;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    float: left;
+    font-size: 200%;
+}
+#right-about p {
+    padding: 0 0 20px 0;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    float: left;
+    font-size: 130%;
+    line-height: 150%;
+}
+
+#right-about .fa-solid {
+    color: black;
 }
 
 
@@ -183,7 +199,7 @@ body {
 
 #footer {
     width: 100%;
-    height: 200px;
+    height: 100px;
     background-color: #C2DFE3;
 }
 
