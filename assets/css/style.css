@@ -13,6 +13,10 @@ body {
 
 /*logo and nav*/
 
+.active {
+    border-bottom: 1px solid #f2fdff;
+}
+
 #header {
     width: 100%;
     height: 70px;
@@ -147,7 +151,6 @@ body {
 #about-us {
     width: 100%;
     height: 600px;
-    background-color: #fff;
 }
 
 #left-about {
@@ -192,6 +195,26 @@ body {
     margin-left: 30px;
 }
 
+#right-about a {
+    padding: 0 30px 20px 20px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    float: left;
+    font-size: 100%;
+    text-decoration: none;
+    color: #000;
+}
+
+#right-about a:hover {
+    cursor: cell;
+    color: #395155;
+    font-size: 110%;
+}
+
+#right-about .fa-solid:hover {
+    cursor: cell;
+    color: #395155;
+}
 
 
 /*footer*/
@@ -213,3 +236,47 @@ body {
 }
 
 /*media queries*/
+
+
+
+/*Contact Page and form*/
+
+#contact-page {
+    width: 100%;
+    height: 900px;
+    background-color: #0d0d0d;
+}
+
+form {
+    color:#fff;
+    padding: 50px 0 10px 0;
+    width: 400px;
+    height: 600px;
+    background-color: #3951555a;
+}
+
+#fname {    
+    margin-bottom: 20px;
+    width: 250px;
+    height: 20px;
+    
+}
+
+#lname {
+    margin-bottom: 20px;
+    width: 250px;
+    height: 20px;
+}
+
+#email {
+    margin-bottom: 20px;
+    width: 250px;
+    height: 20px;
+}
+
+#message {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    width: 250px;
+    height: 20px;
+}
