@@ -243,46 +243,78 @@ body {
 
 /*Contact Page and form*/
 
-#contact-page {
+#contact-hero {
     width: 100%;
     height: 900px;
-    background-color: #0d0d0d;
+    background: url(../image/Futuristic\ picture\ of\ windows\ on\ a\ dark\ building.jpg) no-repeat center center ;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 form {
-    color:#fff;
-    padding: 50px 0 10px 0;
-    width: 400px;
-    height: 600px;
-    background-color: #3951555a;
-    margin: 0 auto;
+    width: 90%;
+    max-width: 600px;
 }
 
-#fname {    
-    margin-bottom: 20px;
-    width: 250px;
-    height: 20px;
-    
+.input-group {
+    margin-bottom: 30px;
+    position: relative;
 }
 
-#lname {
-    margin-bottom: 20px;
-    width: 250px;
-    height: 20px;
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-size: 15px;
 }
 
-#email {
-    margin-bottom: 20px;
-    width: 250px;
-    height: 20px;
+label {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #fff;
+    cursor: text;
+    transition: .2s;
+
 }
 
-#message {
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    width: 250px;
-    height: 20px;
+button {
+    padding: 10px 0;
+    color: #fff;
+    outline: none;
+    background: transparent;
+    border: 1px solid #fff;
+    width: 100%;
+    cursor: cell;
 }
+
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label {
+    top: -35px;
+    font-size: 14px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* gallery*/
 
