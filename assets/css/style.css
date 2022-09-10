@@ -237,9 +237,6 @@ body {
    padding: 40px;
 }
 
-/*media queries*/
-
-
 
 /*Contact Page and form*/
 
@@ -306,16 +303,6 @@ textarea:valid~label {
 
 
 
-
-
-
-
-
-
-
-
-
-
 /* gallery*/
 
 #gallery {
@@ -350,4 +337,53 @@ img:hover {
 
 #footer-text2 h6 {
    padding: 40px;
+}
+
+/*media queries*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    #header {
+        height: 30px;
+    }
+    
+    #logo {
+        font-size: 100%;
+    }
+    
+    #nav a {
+        font-size: 80%;
+    }
+    
+    #contact-border {
+        padding: 4px 20px 4px 20px;
+    }
+
+
+
+
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
 }
