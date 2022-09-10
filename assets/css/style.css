@@ -346,6 +346,8 @@ img:hover {
 
     #header {
         height: 30px;
+        overflow: hidden;
+        padding-bottom: 40px;
     }
     
     #logo {
@@ -361,29 +363,612 @@ img:hover {
     }
 
 
+    #hero-text {
+        color: #fff;
+        font-family: "inter", sans-serif;
+        
+    }
+    
+    #hero-text h2 {
+        font-size: 200%;
+    }
+    
+    #hero-text h4 {
+        font-size: 70%;
+        padding: 0 100px 0 100px;
+    }
+    
+    #hero-image {
+        background: url(../image/pexels-felipe-ribeiro-2271683.jpg) no-repeat center center;
+        height: 400px;
+        background-size: 100%;
+        margin: 20px 50px 20px 50px;
+    }
+    
+    #read-more {
+        visibility: hidden;
+    }
 
 
 
-
-
+    
+    #left-about {
+        width: 50%;
+        height: 600px;
+        background-color: #fcfcfc;
+        float: left;
+    }
+    
+    #right-about {
+        width: 50%;
+        height: 600px;
+        background-color: #fcfcfc;
+        float: right;
+    }
+    
+    #right-about h2 {
+        padding: 110px 0 20px 20px;
+        word-spacing: 5px;
+        letter-spacing: 2px;
+        float: left;
+        font-size: 100%;
+    }
+    #right-about p {
+        padding: 0 30px 20px 20px;
+        word-spacing: 2px;
+        letter-spacing: 1px;
+        float: left;
+        font-size: 90%;
+        line-height: 150%;
+    }
+    
+    #right-about .fa-solid {
+        color: black;
+        visibility: hidden;
+    }
+    
+    #img {
+        background: url(../image/pexels-yentl-jacobs-157811.jpg) center center;
+        width: 100%;
+        height: 600px;
+        background-size: 100%;
+        margin-left: 30px;
+    }
+    
+    #right-about a {
+        padding: 0 30px 20px 20px;
+        word-spacing: 5px;
+        letter-spacing: 2px;
+        float: left;
+        font-size: 90%;
+        text-decoration: none;
+        color: #000;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
+    
+    #header {
+        height: 30px;
+        overflow: hidden;
+        padding-bottom: 40px;
+    }
+    
+    #logo {
+        font-size: 100%;
+    }
+    
+    #nav a {
+        font-size: 80%;
+    }
+    
+    #contact-border {
+        padding: 4px 20px 4px 20px;
+    }
+
+
+    #hero-text {
+        color: #fff;
+        font-family: "inter", sans-serif;
+        
+    }
+    
+    #hero-text h2 {
+        font-size: 220%;
+    }
+    
+    #hero-text h4 {
+        font-size: 80%;
+        padding: 0 100px 0 100px;
+    }
+    
+    #hero-image {
+        background: url(../image/pexels-felipe-ribeiro-2271683.jpg) no-repeat center center;
+        height: 400px;
+        background-size: 100%;
+        margin: 20px 50px 20px 50px;
+    }
+    
+    #read-more {
+        visibility: hidden;
+    }
+
+
+
+    
+    #left-about {
+        width: 50%;
+        height: 600px;
+        background-color: #fcfcfc;
+        float: left;
+    }
+    
+    #right-about {
+        width: 50%;
+        height: 600px;
+        background-color: #fcfcfc;
+        float: right;
+    }
+    
+    #right-about h2 {
+        padding: 110px 0 20px 20px;
+        word-spacing: 5px;
+        letter-spacing: 2px;
+        float: left;
+        font-size: 130%;
+    }
+    #right-about p {
+        padding: 0 30px 20px 20px;
+        word-spacing: 2px;
+        letter-spacing: 1px;
+        float: left;
+        font-size: 100%;
+        line-height: 150%;
+    }
+    
+    #right-about .fa-solid {
+        color: black;
+        visibility: hidden;
+    }
+    
+    #img {
+        background: url(../image/pexels-yentl-jacobs-157811.jpg) center center;
+        width: 100%;
+        height: 600px;
+        background-size: 100%;
+        margin-left: 30px;
+    }
+    
+    #right-about a {
+        padding: 0 30px 20px 20px;
+        word-spacing: 5px;
+        letter-spacing: 2px;
+        float: left;
+        font-size: 90%;
+        text-decoration: none;
+        color: #000;
+    }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    
+    #header {
+        height: 30px;
+        overflow: hidden;
+        padding-bottom: 40px;
+    }
+    
+    #logo {
+        font-size: 150%;
+    }
+    
+    #nav a {
+        font-size: 100%;
+    }
+    
+    #contact-border {
+        padding: 4px 20px 4px 20px;
+    }
 
+
+    #hero-text {
+        color: #fff;
+        font-family: "inter", sans-serif;
+        
+    }
+    
+    #hero-text h2 {
+        font-size: 230%;
+    }
+    
+    #hero-text h4 {
+        font-size: 80%;
+        padding: 0 100px 0 100px;
+    }
+    
+    #hero-image {
+        background: url(../image/pexels-felipe-ribeiro-2271683.jpg) no-repeat center center;
+        height: 400px;
+        background-size: 100%;
+        margin: 20px 50px 20px 50px;
+    }
+    
+    #read-more {
+        visibility: hidden;
+    }
+
+
+
+    
+    #left-about {
+        width: 50%;
+        height: 600px;
+        background-color: #fcfcfc;
+        float: left;
+    }
+    
+    #right-about {
+        width: 50%;
+        height: 600px;
+        background-color: #fcfcfc;
+        float: right;
+    }
+    
+    #right-about h2 {
+        padding: 110px 0 20px 20px;
+        word-spacing: 5px;
+        letter-spacing: 2px;
+        float: left;
+        font-size: 150%;
+    }
+    #right-about p {
+        padding: 0 30px 20px 20px;
+        word-spacing: 4px;
+        letter-spacing: 2px;
+        float: left;
+        font-size: 100%;
+        line-height: 150%;
+    }
+    
+    #right-about .fa-solid {
+        color: black;
+        visibility: hidden;
+    }
+    
+    #img {
+        background: url(../image/pexels-yentl-jacobs-157811.jpg) center center;
+        width: 100%;
+        height: 600px;
+        background-size: 100%;
+        margin-left: 30px;
+    }
+    
+    #right-about a {
+        padding: 0 30px 20px 20px;
+        word-spacing: 5px;
+        letter-spacing: 2px;
+        float: left;
+        font-size: 90%;
+        text-decoration: none;
+        color: #000;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+       
+    #header {
+        height: 30px;
+        overflow: hidden;
+        padding-bottom: 40px;
+    }
+    
+    #logo {
+        font-size: 150%;
+    }
+    
+    #nav a {
+        font-size: 100%;
+    }
+    
+    #contact-border {
+        padding: 4px 20px 4px 20px;
+    }
 
+
+    #hero-text {
+        color: #fff;
+        font-family: "inter", sans-serif;
+        
+    }
+    
+    #hero-text h2 {
+        font-size: 230%;
+    }
+    
+    #hero-text h4 {
+        font-size: 80%;
+        padding: 0 100px 0 100px;
+    }
+    
+    #hero-image {
+        background: url(../image/pexels-felipe-ribeiro-2271683.jpg) no-repeat center center;
+        height: 400px;
+        background-size: 100%;
+        margin: 20px 50px 20px 50px;
+    }
+    
+    #read-more {
+        visibility: hidden;
+    }
+
+
+
+    
+    #left-about {
+        width: 50%;
+        height: 600px;
+        background-color: #fcfcfc;
+        float: left;
+    }
+    
+    #right-about {
+        width: 50%;
+        height: 600px;
+        background-color: #fcfcfc;
+        float: right;
+    }
+    
+    #right-about h2 {
+        padding: 110px 0 20px 20px;
+        word-spacing: 5px;
+        letter-spacing: 2px;
+        float: left;
+        font-size: 150%;
+    }
+    #right-about p {
+        padding: 0 30px 20px 20px;
+        word-spacing: 4px;
+        letter-spacing: 2px;
+        float: left;
+        font-size: 100%;
+        line-height: 150%;
+    }
+    
+    #right-about .fa-solid {
+        color: black;
+        visibility: hidden;
+    }
+    
+    #img {
+        background: url(../image/pexels-yentl-jacobs-157811.jpg) center center;
+        width: 100%;
+        height: 600px;
+        background-size: 100%;
+        margin-left: 30px;
+    }
+    
+    #right-about a {
+        padding: 0 30px 20px 20px;
+        word-spacing: 5px;
+        letter-spacing: 2px;
+        float: left;
+        font-size: 90%;
+        text-decoration: none;
+        color: #000;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+       
+    #header {
+        height: 30px;
+        overflow: hidden;
+        padding-bottom: 40px;
+    }
+    
+    #logo {
+        font-size: 150%;
+    }
+    
+    #nav a {
+        font-size: 100%;
+    }
+    
+    #contact-border {
+        padding: 4px 20px 4px 20px;
+    }
 
+
+    #hero-text {
+        color: #fff;
+        font-family: "inter", sans-serif;
+        
+    }
+    
+    #hero-text h2 {
+        font-size: 270%;
+    }
+    
+    #hero-text h4 {
+        font-size: 80%;
+        padding: 0 100px 0 100px;
+    }
+    
+    #hero-image {
+        background: url(../image/pexels-felipe-ribeiro-2271683.jpg) no-repeat center center;
+        height: 400px;
+        background-size: 100%;
+        margin: 20px 50px 20px 50px;
+    }
+    
+    #read-more {
+        visibility: hidden;
+    }
+
+
+
+    
+    #left-about {
+        width: 50%;
+        height: 600px;
+        background-color: #fcfcfc;
+        float: left;
+    }
+    
+    #right-about {
+        width: 50%;
+        height: 600px;
+        background-color: #fcfcfc;
+        float: right;
+    }
+    
+    #right-about h2 {
+        padding: 110px 0 20px 20px;
+        word-spacing: 5px;
+        letter-spacing: 2px;
+        float: left;
+        font-size: 200%;
+    }
+    #right-about p {
+        padding: 0 30px 20px 20px;
+        word-spacing: 4px;
+        letter-spacing: 2px;
+        float: left;
+        font-size: 150%;
+        line-height: 150%;
+    }
+    
+    #right-about .fa-solid {
+        color: black;
+        visibility: hidden;
+    }
+    
+    #img {
+        background: url(../image/pexels-yentl-jacobs-157811.jpg) center center;
+        width: 100%;
+        height: 600px;
+        background-size: 100%;
+        margin-left: 30px;
+    }
+    
+    #right-about a {
+        padding: 0 30px 20px 20px;
+        word-spacing: 5px;
+        letter-spacing: 2px;
+        float: left;
+        font-size: 120%;
+        text-decoration: none;
+        color: #000;
+    }
+}
+
+/* Extra extra large devices (large laptops and desktops, 1700px and up) */
+@media only screen and (min-width: 1700px) {
+       
+    #header {
+        height: 30px;
+        overflow: hidden;
+        padding-bottom: 40px;
+    }
+    
+    #logo {
+        font-size: 150%;
+    }
+    
+    #nav a {
+        font-size: 100%;
+    }
+    
+    #contact-border {
+        padding: 4px 20px 4px 20px;
+    }
+
+
+    #hero-text {
+        color: #fff;
+        font-family: "inter", sans-serif;
+        
+    }
+    
+    #hero-text h2 {
+        font-size: 350%;
+    }
+    
+    #hero-text h4 {
+        font-size: 120%;
+        padding: 0 300px 0 300px;
+    }
+    
+    #hero-image {
+        background: url(../image/pexels-felipe-ribeiro-2271683.jpg) no-repeat center center;
+        height: 400px;
+        background-size: 100%;
+        margin: 20px 50px 20px 50px;
+    }
+    
+    #read-more {
+        visibility: hidden;
+    }
+
+
+
+    
+    #left-about {
+        width: 50%;
+        height: 600px;
+        background-color: #fcfcfc;
+        float: left;
+    }
+    
+    #right-about {
+        width: 50%;
+        height: 600px;
+        background-color: #fcfcfc;
+        float: right;
+    }
+    
+    #right-about h2 {
+        padding: 110px 0 20px 20px;
+        word-spacing: 5px;
+        letter-spacing: 2px;
+        float: left;
+        font-size: 250%;
+    }
+    #right-about p {
+        padding: 0 30px 20px 20px;
+        word-spacing: 4px;
+        letter-spacing: 2px;
+        float: left;
+        font-size: 150%;
+        line-height: 150%;
+    }
+    
+    #right-about .fa-solid {
+        color: black;
+        visibility: hidden;
+    }
+    
+    #img {
+        background: url(../image/pexels-yentl-jacobs-157811.jpg) center center;
+        width: 100%;
+        height: 600px;
+        background-size: 100%;
+        margin-left: 30px;
+    }
+    
+    #right-about a {
+        padding: 0 30px 20px 20px;
+        word-spacing: 5px;
+        letter-spacing: 2px;
+        float: left;
+        font-size: 150%;
+        text-decoration: none;
+        color: #000;
+    }
 }
